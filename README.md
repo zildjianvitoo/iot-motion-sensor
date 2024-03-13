@@ -44,3 +44,4 @@ Sistem keamanan rumah ini bekerja dengan cara mendeteksi gerakan dan memicu alar
 
 
 ## Finisihing Project
+![plot](./assets/image1.jpeg)
