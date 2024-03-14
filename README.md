@@ -17,23 +17,21 @@ Project ini membangun sistem keamanan rumah sederhana dengan Arduino Uno R3. Sis
 - Arduino Uno R3
 - Sensor PIR
 - Buzzer
-- Resistor
-- Kapasitor
 - Jumper wire
 - Breadboard
 - Adaptor AC-DC 9V
+- Modul Relay
 
 ## Penyusunan Alat dan Bahan
-1. Siapkan alat dan bahan: Arduino Uno R3, sensor PIR, buzzer, resistor, kapasitor, jumper wire, breadboard, adaptor AC-DC 9V.
+1. Siapkan alat dan bahan: Arduino Uno R3, sensor PIR, buzzer, Relay , jumper wire, breadboard, adaptor AC-DC 9V.
 2. Hubungkan Vcc sensor PIR ke pin 5V Arduino.
 3. Hubungkan GND sensor PIR ke pin GND Arduino.
-4. Hubungkan Output sensor PIR ke pin digital 2 Arduino.
-5. Hubungkan kaki positif buzzer ke pin digital 3 Arduino.
+4. Hubungkan Output sensor PIR ke pin digital 7 Arduino.
+5. Hubungkan kaki Positif buzzer ke Relay.
 6. Hubungkan kaki negatif buzzer ke pin GND Arduino.
-7. Hubungkan resistor 100 ohm antara kaki positif buzzer dan pin digital 3 Arduino.
-8. Buka Arduino IDE, buat sketch baru, salin dan tempel kode program.
-9. Upload kode program ke Arduino Uno R3.
-10. Hubungkan Arduino ke adaptor AC-DC 9V, uji sistem dengan simulasi gerakan di depan sensor PIR, buzzer akan berbunyi.
+7. Buka Arduino IDE, buat sketch baru, salin dan tempel kode program.
+8. Upload kode program ke Arduino Uno R3.
+9. Hubungkan Arduino ke adaptor AC-DC 9V, uji sistem dengan simulasi gerakan di depan sensor PIR, buzzer akan berbunyi.
 
 ## Mekanisme Kerja 
 Sistem keamanan rumah ini bekerja dengan cara mendeteksi gerakan dan memicu alarm. Berikut mekanismenya:
@@ -45,3 +43,4 @@ Sistem keamanan rumah ini bekerja dengan cara mendeteksi gerakan dan memicu alar
 
 ## Finisihing Project
 ![plot](./assets/image1.jpeg)
+!
